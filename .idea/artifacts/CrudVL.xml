@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CrudVL">
+    <output-path>$PROJECT_DIR$/target/CrudVL.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CrudVL" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.10" />
+        </element>
+        <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.10" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/CrudVL-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.10" />
+      </element>
+      <element id="javaee-facet-resources" facet="CrudVL/web/Web" />
+      <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.10" />
+    </root>
+  </artifact>
+</component>

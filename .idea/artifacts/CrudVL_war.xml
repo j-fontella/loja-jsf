@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CrudVL:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CrudVL</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CrudVL-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CrudVL:war exploded" />
+    </root>
+  </artifact>
+</component>
